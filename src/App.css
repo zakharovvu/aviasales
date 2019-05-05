@@ -1,0 +1,197 @@
+
+.App {
+  text-align: center;
+}
+body {
+  font-family: 'Electrolize', sans-serif;
+  background: #F2F2F2;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+.logo {
+  width: 60px;
+  height: 60px;
+}
+.content {
+  
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 232px 566px;
+  grid-gap: 20px;
+}
+.content menu {
+  margin: 0;
+  padding: 0;
+  height: 331px;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 4px rgba(91, 137, 164, 0.25);
+  border-radius: 5px;
+}
+
+.content .card {
+  
+  height: 161px;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 4px rgba(91, 137, 164, 0.25);
+  border-radius: 5px;
+}
+
+menu .currency {
+  height: 70px;
+  margin: 15px;
+}
+menu .button1 {
+  border-radius: 5px 0px 0px 5px;
+}
+menu .isselect {
+  background: #2196F3;
+}
+menu .button3 {
+  border-radius: 0px 5px 5px 0px;
+}
+button {
+  height: 40px;
+  outline: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  width: 100%;
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+}
+menu .button {
+  display: flex;
+  justify-content: space-between;
+}
+menu .currency .title {
+  text-align: left;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+menu .selected .title {
+  font-size: 12px;
+  line-height: 19px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: 7px;
+}
+menu .selected {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+label {
+  position: relative;
+  text-align: left;
+  padding-bottom: 8px;
+  padding-top: 8px;
+}
+label:hover {
+  background: #F1FCFF;
+  cursor: pointer;
+}
+label:hover .this {
+  display: block;
+}
+.check {
+  background: white;
+  border: 1px solid red;
+  margin: 0;              
+  font-size: 100%; 
+  outline: none; 
+  color: red;
+  margin-right: 10px;
+  font-size: 13px;
+}
+.card {
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-auto-rows: 1fr 1fr;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 4px rgba(91, 137, 164, 0.25);
+  border-radius: 5px;
+  grid-gap: 1px;
+}
+.card .pay {
+  width: 160px;
+  height: 56px;
+  background: #FF6D00;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.1), 0px 1px 0px #D64D08;
+  border-radius: 5px;
+  justify-self: center;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+  
+}
+.card .pay:hover {
+  background: #FF8124;
+  cursor: pointer;
+}
+.card .card-item {
+  border-right: 1px solid #ECEFF1;
+}
+.card .card-time {
+  align-items: flex-end;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.card .time-start, .card .time-end {
+  font-size: 32px;
+  line-height: 26px;
+  color: #4A4A4A;
+}
+.card .title {
+  font-weight: 600;
+  font-size: 10px;
+  text-transform: uppercase;
+  align-self: center;
+}
+.card .direction {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+}
+.card .date {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.card .date-start {
+  justify-self: flex-start;
+  padding: 10px;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: right;
+  color: #8B9497;
+}
+.card .date-end {
+  justify-self: flex-end;
+  padding: 10px;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: right;
+  color: #8B9497;
+}
+.selected .this {
+  display: none;
+  position: absolute;
+  left: 157px;
+  top: 7px;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 20px;
+  text-align: right;
+  letter-spacing: 0.5px;
+  color: #2196F3;
+}
+.selected .this:hover {
+  border-bottom: 1px solid #FF6D00;;
+}
+
